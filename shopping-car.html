@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Car</title><!-- Practice of variables -->
+</head>
+<body>
+    <button
+    onclick="addingProduct > 0 ? alert(`You have ${addingProduct} products in the car`) : alert('The car is empty')">Show Resume</button>
+    <button onclick="addingProduct++">Add to car</button>
+    <button onclick="addingProduct +=2">+2</button>
+    <button onclick="addingProduct +=3">+3</button>
+    <button onclick="addingProduct--">Substract to car</button>
+    <button onclick="addingProduct = 0">Reset the car</button>
+
+    <script>
+        let addingProduct = 0;
+    </script>
+</body>
+</html>
